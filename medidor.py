@@ -57,7 +57,7 @@ def encontrar_punta_manilla(contorno, punto_manilla):
 def calcular_distancia(p1, p2):
     return np.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
 
-def encontrar_dial_y_calcular_porcentaje(imagen, punto_manilla=(83,95), inicio=(42,57), final=(117,49), debug=False):
+def encontrar_dial_y_calcular_porcentaje(imagen, punto_manilla=(76,96), inicio=(35,53), final=(109,51), debug=False):
     # Reescalar la imagen 115 / 200  210/280
     ancho = int(imagen.shape[1] * 0.8)
     alto = int(imagen.shape[0] * 0.8)
